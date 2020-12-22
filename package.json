@@ -4,7 +4,6 @@
   "description": "Simple colored card",
   "author": "hannaev",
   "license": "MIT",
-  "repository": "hannaev/carddiv",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +48,27 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "keywords": [
+    "dhis2-component-search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
+  "dhis2ComponentSearch": {
+    "language": "react",
+    "components": [
+      {
+        "name": "Card Div",
+        "export": "Carddiv",
+        "description": "A simple colored card",
+        "dhis2Version": [
+          "32.0.0",
+          "32.1.0",
+          "33.0.0"
+        ]
+      }
+    ]
+  }
 }

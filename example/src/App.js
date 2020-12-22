@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from '@hannaev/carddiv'
 import '@hannaev/carddiv/dist/index.css'
+import { Carddiv } from '@hannaev/carddiv'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Carddiv text="Simple card" />
 }
 
 export default App
