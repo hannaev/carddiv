@@ -7,6 +7,9 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=10"
   },
