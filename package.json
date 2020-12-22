@@ -57,7 +57,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hannaev/carddiv",
+    "url": "https://github.com/hannaev/carddiv"
   },
   "dhis2ComponentSearch": {
     "language": "react",
